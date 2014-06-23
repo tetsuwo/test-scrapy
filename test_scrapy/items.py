@@ -6,6 +6,6 @@
 from scrapy.item import Item, Field
 
 class TestScrapyItem(Item):
-    # define the fields for your item here like:
-    # name = Field()
-    pass
+    title = Field()
+    link = Field()
+    content = Field()
